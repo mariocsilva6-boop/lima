@@ -1,0 +1,47 @@
+* { /* seletor universal*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.destaque { /* seletor de classe */
+    color: blue;
+    font-weight: bold;
+}
+#titulo-principal { /* seletor por id */
+    color: red;
+    text-align: center;
+}
+p { /* seletor de tag */
+    font-size: 18px;
+    line-height: 1.5;
+    color: yellow;
+}
+h1, h2, h3 { /* seletor de grupo */
+    font-family: Arial, sans-serif;
+    color: darkgreen;
+}
+h4 { /* seletor de grupo */
+    font-family: Arial, sans-serif;
+    color: red;
+}
+table, th, tr, td { /* seletor de grupo */
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 5px;
+}
+
+  a:link { /* seletor de pseudo-classe */
+    color: blue;
+    text-decoration: none;
+}
+a:visited { /* seletor de pseudo-classe */
+    color: purple;
+}
+a:hover { /* seletor de pseudo-classe */
+    color: red;
+    text-decoration: underline;
+}
+a:active { /* seletor de pseudo-classe */
+    color: green;
+}

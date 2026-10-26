@@ -10,11 +10,9 @@
         * {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
         }
 
         body {
-            font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             color: #333;
         }
@@ -38,11 +36,8 @@
             margin: 15px;
             font-weight: bold;
         }
-
         .destaque {
-            display: flex;
             align-items: center;
-            justify-content: space-around;
             padding: 40px 20px;
             background-color: white;
             flex-wrap: wrap;
@@ -64,7 +59,6 @@
         }
 
         .botao {
-            display: inline-block;
             background-color: #ff6600;
             color: white;
             padding: 12px 20px;
@@ -92,18 +86,17 @@
         }
 
         .cartoes {
+            text-align: center;
             display: flex;
             justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
+
         }
 
         .cartao {
             background-color: white;
             padding: 25px;
             width: 250px;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px #ccc;
+            margin: 10px;
         }
 
         .cartao h3 {
@@ -118,7 +111,7 @@
             padding: 20px;
         }
 
-        @media (max-width: 600px) {
+    
             nav a {
                 display: inline-block;
                 margin: 8px;
@@ -127,7 +120,6 @@
             .destaque {
                 text-align: center;
             }
-        }
     </style>
 </head>
 
@@ -135,7 +127,7 @@
 
     <header>
         <h1>SENAI</h1>
-        <p>Educação, Inovação e Tecnologia</p>
+        <p>Educação e Tecnologia</p>
     </header>
 
     <nav>

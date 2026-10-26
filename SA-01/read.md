@@ -1,0 +1,1 @@
+Para a progrmação do site eu utilizei a cor laranja em um site porque ela transmite energia, criatividade, entusiasmo e inovação.
