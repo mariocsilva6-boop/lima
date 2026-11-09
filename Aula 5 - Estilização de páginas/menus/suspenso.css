@@ -34,6 +34,6 @@ a:hover {
     padding: 10px;
 }
 /* Mostrar submenu no hover */
-li:hover .sub {
+li:hover > ul {
     display: block;
 }
